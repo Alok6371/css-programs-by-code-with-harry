@@ -1,0 +1,104 @@
+:root {
+    --main-bg-color: rgb(73, 117, 15);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: auto;
+    background: var(--main-bg-color);
+
+
+}
+
+footer {
+    background-color: var(--main-bg-color);
+
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+
+    padding: 0;
+
+
+}
+
+nav ul {
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li {
+    padding: 0 23px;
+    list-style: none;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    /* color: blue; */ 
+    font-weight: bolder;
+}
+.search{
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+}
+.search input{
+    width: 493px;
+    height: 27px;
+    border-radius: 5px;
+    margin: 0 24px 0 34px;
+}
+.btn{
+    padding: 5px 10px;
+    color: white;
+    background-color: var(--main-bg-color);
+    border-radius: 7px;
+    cursor: pointer;
+    border: 2px solid white;
+
+}
+.btn:hover{
+    color: skyblue;
+    font-style: italic;
+    animation: botton 0.24s 4 forwards ;
+}
+main {
+    color: black;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.container {
+    min-height: calc(100vh - 58px - 12vh);
+}
+
+
+
+
+
+
+
+
+
+@keyframes botton {
+    from{
+        width: 65px;
+    }
+    to{
+        width: 100px;
+    }
+    
+}

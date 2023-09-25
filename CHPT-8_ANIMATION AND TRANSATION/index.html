@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: red;
+            color: rgb(0, 11, 74);
+            height: 1000px;
+            width: 100%;
+        }
+        .box{
+            transform: translate(23px 100px);
+            /* transform: rotate(34deg); */
+            /* transform-origin:0 ; */
+            /* transform: scale(23,23); */
+            /* transform: skew(4deg,10deg); */
+            /* transform: matrix(1,2,3,4,5,9); */
+            /* transform: rotateX(9deg); */
+        }
+        img{
+            /* border: 5px solid black; */
+            width: 455px;
+            height: 250px;
+            transition-property: height,width;
+            /* transition-property: width; */
+            transition-duration:5s ;
+            transition-timing-function: ease-in;
+        }
+        
+        img:hover{
+            width: 5px;
+            height: 5px;
+            
+        }
+        
+    </style>
+    <script>
+
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="jaga.png" alt="" >
+        </div>
+    </div>
+</body>
+</html>

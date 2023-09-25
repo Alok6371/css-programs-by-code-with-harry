@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+
+        li {
+            display: inline;
+            margin: 0px 13px 0px 23px;
+            font-size: 23px;
+            /* list-style: square outside url('8c8cb09d5c1d0321d2eda134e71d3e7e.jpg'); */
+            }
+
+        header {
+            background-color: black;
+            color: white;
+            height: auto;
+            position: sticky;
+            top: 0px;
+            z-index: 23;
+            
+        }
+
+        p {
+            text-align: center;
+            border: 2px solid red;
+
+        }
+
+        .container {
+            background-color: aqua;
+            width: 100%;
+            height: 3344px;
+            align-items: center;
+            font-size: 23px;
+        }
+
+        .box {
+            background-color: yellow;
+            height: 200px;
+            width: 200px;
+            /* position: relative;
+            top: -20px;
+            left: 840px;
+            box-align: center; */
+            /* position: absolute; */
+            /* top: 0px;/ */
+            position: fixed;
+        }
+
+        .box2 {
+            background-color: rgb(94, 9, 120);
+            height: 200px;
+            width: 200px;
+            /* position: relative; */
+            /* top: 33px; */
+            box-align: center;
+            position: absolute;
+            /* z-index: 345px; */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo eius repellat error provident aliquid velit
+            incidunt assumenda eaque. Dolorem reiciendis dicta facere necessitatibus.</p>
+        <!-- <div class="box">
+            I am Box
+        </div> -->
+        <div class="box2">
+            I am second Box
+        </div>
+
+
+    </div>
+    <ul>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Orange </li>
+    </ul>
+</body>
+
+</html>
